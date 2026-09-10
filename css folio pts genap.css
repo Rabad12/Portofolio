@@ -1,0 +1,470 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5F6266;
+    color: #333;
+}
+
+.isi {
+    margin: 30px;
+    background-color: #CFD1D4;
+    border-radius: 20px;
+}
+
+.fotologo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 20%;
+    justify-content: left;
+}
+
+.fotologo img{
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;  
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    left: 50%;
+    transform: translateX(-40%);
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.hero {
+    text-align: center;
+}
+
+.muka img {
+    width: 500px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 200px;
+    margin-top: 50px;
+}
+
+.skills {
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; 
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 150px;
+}
+
+.skills span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+}
+
+.skills a {
+    text-decoration: none !important; 
+    color: black !important; 
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.bran {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+}
+
+.namaahli {
+    font-weight: bold;
+}
+
+.namaahli h1 {
+    font-size: 64px;
+}
+
+.namaahli p {
+    font-size: 36px;
+}
+
+.hover  a {
+    color: #A5A9AE;
+}
+
+.tentangaku {
+    background-color:#fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+
+.tentangaku p {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.tentangaku p a {
+    text-decoration: none;
+    color: black
+}
+
+.sekolah {
+    background-color: #D9D9D9;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    gap: 200px;
+    text-align: center;
+    padding-bottom: 20px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);;
+    position: relative;
+    padding: 120px 10px 30px 50px;
+    width: 75%;
+    margin-left: 0px; 
+}
+
+.riwayat {
+    position: absolute ;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.sekolah img {
+    width: 200px;
+    height: auto;
+}
+
+.sekul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.sekul h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.skillkonteiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
+    max-width: 1800px;
+    margin: auto;
+}
+
+.skill-card {
+    background-color: #D9D9D9; 
+    padding: 30px; 
+    border-radius: 10px;
+    width: 45%; 
+    font-family: Arial, sans-serif;
+    margin: 10px; 
+    text-align: left; 
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.skill-header {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.skill-icon {
+    width: 70px; 
+    height: auto;
+}
+
+.skill-description {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.5; 
+}
+
+.skill-link {
+    text-decoration: underline;
+    color: black;
+}
+
+.judulskill {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.folio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px; 
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pf {
+    background-color: #D9D9D9;
+    border-radius: 20px;
+    padding: 20px;
+    width: 600px;
+    height: 800px;
+    max-width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.pfvertikal {
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    padding: 20px;
+    width: 600px;
+    height: 800px;
+    max-width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pfvertikal h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.konten {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+}
+
+.konten p {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    max-width: 60%;
+}
+
+.konten p a {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    max-width: 60%;
+    color: #000;
+}
+
+
+.gambarvertikal img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.kontak {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.cont {
+    background-color: #D1D2D6;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    margin-bottom: 20PX;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    width: 50%;
+    height: 100px;
+    border-radius:20px ;
+    margin-left: 25%;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.cont  a{
+    color: #000;
+}
+
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#error-msg {
+    color: red;
+    font-size: 14px;
+}
+
+main h2 {
+    font-size: 64px;
+    color: black;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+main p {
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #444;
+    font-weight: bold;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 12.5%;
+}
+
+form input {
+    width: 98.75%;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #5F6266;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #CFD1D4;
+}
+
+footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #aaa;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+}
+
+.social-icons span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.social-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+.message {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.success {
+    color: green;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+}
+
+.error {
+    color: red;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+}
